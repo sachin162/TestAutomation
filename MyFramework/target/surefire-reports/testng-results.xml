@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51494" started-at="2021-01-04T08:01:56Z" finished-at="2021-01-04T08:02:48Z">
+    <groups>
+    </groups>
+    <test name="Base driver" duration-ms="3" started-at="2021-01-04T08:01:56Z" finished-at="2021-01-04T08:01:56Z">
+    </test> <!-- Base driver -->
+    <test name="Validate Title test" duration-ms="27556" started-at="2021-01-04T08:01:57Z" finished-at="2021-01-04T08:02:24Z">
+      <class name="Resources.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Resources.ValidateTitle@2796aeae]" name="initialize" is-config="true" duration-ms="26978" started-at="2021-01-04T13:31:57Z" finished-at="2021-01-04T13:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateTitle()[pri:0, instance:Resources.ValidateTitle@2796aeae]" name="validateTitle" duration-ms="440" started-at="2021-01-04T13:32:24Z" finished-at="2021-01-04T13:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Resources.ValidateTitle@2796aeae]" name="close" is-config="true" duration-ms="97" started-at="2021-01-04T13:32:24Z" finished-at="2021-01-04T13:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Resources.ValidateTitle -->
+    </test> <!-- Validate Title test -->
+    <test name="Base test " duration-ms="23427" started-at="2021-01-04T08:02:24Z" finished-at="2021-01-04T08:02:48Z">
+      <class name="Resources.BaseTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Resources.BaseTest@6cc558c6]" name="initialize" is-config="true" duration-ms="5670" started-at="2021-01-04T13:32:24Z" finished-at="2021-01-04T13:32:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Resources.BaseTest@6cc558c6]" name="basePageNavigation" duration-ms="14220" started-at="2021-01-04T13:32:30Z" data-provider="getData" finished-at="2021-01-04T13:32:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sksachin1510gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sksachin1510]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Allowed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Resources.BaseTest@6cc558c6]" name="basePageNavigation" duration-ms="3469" started-at="2021-01-04T13:32:44Z" data-provider="getData" finished-at="2021-01-04T13:32:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sksachin1510k]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Resources.BaseTest@6cc558c6]" name="close" is-config="true" duration-ms="66" started-at="2021-01-04T13:32:48Z" finished-at="2021-01-04T13:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Resources.BaseTest -->
+    </test> <!-- Base test  -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18467" started-at="2021-01-04T13:27:30 IST" finished-at="2021-01-04T13:27:48 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18467" started-at="2021-01-04T13:27:30 IST" finished-at="2021-01-04T13:27:48 IST">
+      <class name="Resources.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Resources.ValidateTitle@68e965f5]" name="initialize" is-config="true" duration-ms="17680" started-at="2021-01-04T13:27:30 IST" finished-at="2021-01-04T13:27:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateTitle()[pri:0, instance:Resources.ValidateTitle@68e965f5]" name="validateTitle" duration-ms="569" started-at="2021-01-04T13:27:48 IST" finished-at="2021-01-04T13:27:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Resources.ValidateTitle@68e965f5]" name="close" is-config="true" duration-ms="177" started-at="2021-01-04T13:27:48 IST" finished-at="2021-01-04T13:27:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Resources.ValidateTitle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

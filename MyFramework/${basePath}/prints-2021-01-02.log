@@ -1,0 +1,8 @@
+22:55:32.091 [main] INFO  Resources.BaseTest - clicked on LOGIN 
+22:55:32.162 [main] INFO  Resources.BaseTest - Entering email 
+22:55:32.375 [main] INFO  Resources.BaseTest - Entering password 
+22:55:32.500 [main] INFO  Resources.BaseTest - click on LOGIN BUTTON 
+22:55:32.757 [main] INFO  Resources.BaseTest - End of Test case 1
+22:55:32.779 [main] INFO  Resources.BaseTest - Navigating to http://www.qaclickacademy.com/
+22:55:34.325 [main] INFO  Resources.BaseTest - Navigation SUCCESS
+22:55:34.326 [main] INFO  Resources.BaseTest - clicking on LOGIN 

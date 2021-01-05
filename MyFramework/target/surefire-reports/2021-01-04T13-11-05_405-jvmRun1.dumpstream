@@ -1,0 +1,9 @@
+# Created at 2021-01-04T13:12:14.319
+chrome not reachable
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'QT-INBG-LT0313', ip: '10.130.99.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\SACHIN~1.KUL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62353}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ff2a1007fa510e47de4643a1e47e7638
+

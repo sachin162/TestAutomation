@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="Resources.TestNgListeners"/>
+  </listeners>
+  <test name="Validate Title test(failed)" parallel="none">
+    <classes>
+      <class name="Resources.ValidateTitle">
+        <methods>
+          <include name="validateTitle"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Resources.ValidateTitle -->
+      <class name="Resources.BaseTest">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Resources.BaseTest -->
+    </classes>
+  </test> <!-- Validate Title test(failed) -->
+  <test name="Base test (failed)" parallel="none">
+    <classes>
+      <class name="Resources.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Resources.ValidateTitle -->
+      <class name="Resources.BaseTest">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Resources.BaseTest -->
+    </classes>
+  </test> <!-- Base test (failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,8 @@
+17:15:05.687 [main] INFO  Resources.BaseTest - Navigation SUCCESS
+17:15:05.702 [main] INFO  Resources.BaseTest - clicking on LOGIN 
+17:15:05.777 [main] INFO  Resources.BaseTest - clicked on LOGIN 
+17:15:05.777 [main] INFO  Resources.BaseTest - Entering email 
+17:15:06.818 [main] INFO  Resources.BaseTest - Entering password 
+17:15:06.890 [main] INFO  Resources.BaseTest - click on LOGIN BUTTON 
+17:15:06.950 [main] INFO  Resources.BaseTest - End of Test case 1
+17:16:06.989 [main] INFO  Resources.BaseTest - Navigating to http://www.qaclickacademy.com/
