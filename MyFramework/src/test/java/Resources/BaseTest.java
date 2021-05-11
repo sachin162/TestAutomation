@@ -26,6 +26,7 @@ public class BaseTest extends BaseDriver
 	{
 		log.info("Initializing the browser");
 		driver=initializeDriver();
+		//editing this file for github
          
 	}
 	 @Test(dataProvider="getData")
