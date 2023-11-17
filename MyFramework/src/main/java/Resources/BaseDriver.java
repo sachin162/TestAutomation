@@ -32,7 +32,7 @@ public class BaseDriver
 		{
 			ChromeOptions option= new ChromeOptions();
 			option.addArguments("headless");
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\\\src\\\\main\\\\java\\\\Resources\\\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"chromedriver.exe");
 			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\sachin.kulkarni\\Downloads\\chromedriver_win32\\chromedriver.exe");
 			driver = new ChromeDriver(option);
 		}
